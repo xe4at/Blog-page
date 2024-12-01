@@ -7,7 +7,7 @@ function Header() {
     <AppBar position="sticky">
       <Container>
         <Toolbar>
-          <Typography component="h1" variant="h5" fontWeight="bold" flex={1}>
+          <Typography component="h1" variant="h5" fontWeight="750" flex={1}>
             وبلاگ احسان
           </Typography>
           <BookIcon />
@@ -18,3 +18,4 @@ function Header() {
 }
 
 export default Header;
+   

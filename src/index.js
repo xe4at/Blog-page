@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
-import "./index.css";
+import "./styles/index.css";
+import "./styles/font.css";
 import App from "./App";
+import { ThemeProvider } from "@emotion/react";
+import theme from "./mui/theme";
 
 const client = new ApolloClient({
   uri: "https://us-west-2.cdn.hygraph.com/content/cm41yfq3f02ag07w6d8zgk5w5/master",
@@ -12,6 +15,8 @@ const client = new ApolloClient({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ApolloProvider client={client}>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </ApolloProvider>
 );
