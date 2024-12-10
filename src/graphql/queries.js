@@ -1,5 +1,4 @@
 import { gql } from "@apollo/client";
-import { Title } from "@mui/icons-material";
 
 const GET_BLOGS_INFO = gql`
 query{
