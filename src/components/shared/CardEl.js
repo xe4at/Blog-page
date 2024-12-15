@@ -10,6 +10,8 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function CardEl({ title, slug, coverPhoto, author, props }) {
   console.log(props);
@@ -41,7 +43,7 @@ function CardEl({ title, slug, coverPhoto, author, props }) {
       </CardContent>
       <Divider variant="middle" sx={{ margin: "10px" }} />
       <CardActions>
-        {/* <Link to={`/blogs/${slug}`} style={{textDecoration:"none",width:"100%"}}> */}
+        <Link to={`/blogs/${slug}`} style={{textDecoration:"none",width:"100%"}}>
           <Button
             variant="outline"
             size="small"
@@ -49,7 +51,7 @@ function CardEl({ title, slug, coverPhoto, author, props }) {
           >
             مطالعه مقاله
           </Button>
-        {/* </Link> */}
+        </Link>
       </CardActions>
     </Card>
   );
