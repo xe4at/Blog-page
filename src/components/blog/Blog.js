@@ -1,6 +1,6 @@
 import { useQuery } from "@apollo/client";
 import React from "react";
-import { GET_BLOGS_INFO } from "../../graphql/queries";
+import { GET_AUTHORS_INFO, GET_BLOGS_INFO } from "../../graphql/queries";
 import { Grid } from "@mui/material";
 import CardEl from "../shared/CardEl";
 
