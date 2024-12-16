@@ -13,7 +13,6 @@ function App() {
           <Route path="/blogs/:slug" element={<BlogPage />} />
           <Route path="/authors/:slug" element={<AuthorsPage />} />
         </Routes>
-        <HomePage />
       </Layout>
     </>
   );
