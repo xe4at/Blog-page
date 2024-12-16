@@ -11,8 +11,6 @@ function Authors() {
 
   if (error) return <h3>{error.message}</h3>;
 
-  console.log(data);
-
   return (
     <Grid
       container
