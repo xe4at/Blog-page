@@ -12,7 +12,7 @@ function Blog() {
   if (error) return <h4>Error...</h4>;
 
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} >
       {data.posts.map((post) => (
         <Grid item xs={12} sm={6} md={4} key={post.id}>
           <CardEl {...post} />
