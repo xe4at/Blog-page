@@ -1,0 +1,101 @@
+[33mcommit d3ef2f2638eb01186058114b078216e853e704fe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Wed Dec 18 22:57:50 2024 +0330
+
+    add loader component
+
+[33mcommit c80072c815eeba8d866cf195870b3f477f26a94c[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Tue Dec 17 18:55:23 2024 +0330
+
+    Adding author data to a page to the author details page
+
+[33mcommit 2b91f2069187e0614eba1bcc8bacbe19951d0aa1[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 16 14:13:10 2024 +0330
+
+    Dynamically create author details page
+
+[33mcommit 39466e374afb830f4f71b7308e3f4e01ea06ad91[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 16 13:53:36 2024 +0330
+
+    catch authors data with slug
+
+[33mcommit 8e9e88054ab5e92914a8eb60fbc4b295b233bea8[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 16 13:28:51 2024 +0330
+
+    fixed home page bug
+
+[33mcommit 9be4f72b39e14eab98bebcdc0c5b908308c7a953[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sun Dec 15 23:08:22 2024 +0330
+
+    add route to project
+
+[33mcommit fa6a6d74aa78e53f877430252d853b8a249c85e5[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sun Dec 15 20:16:28 2024 +0330
+
+    show authors at HomePage
+
+[33mcommit 169a9224cc98e8c27c55326a0652a662e34af07c[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sun Dec 15 17:07:51 2024 +0330
+
+    Catch Authors Data
+
+[33mcommit 4fb0a148aad75be379f128f9a64eb90547cd3f12[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Tue Dec 10 22:18:41 2024 +0330
+
+    create card's (we have bug in this part)
+
+[33mcommit db5d7dddc9bc90124c6a3486a53d1444096c5f60[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 9 04:38:23 2024 +0330
+
+    Setting up the blog section and making it responsive
+
+[33mcommit 132d8b5c61bedacf0db5415df3e0d0ab673cf835[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 9 04:14:37 2024 +0330
+
+    add query for catching Articles data
+
+[33mcommit cc47ee0e3cbf708b28967ded0de66836874f977e[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Thu Dec 5 11:49:28 2024 +0330
+
+    Creating a Layout Component and Wrapping It Around the Application
+
+[33mcommit 7af169e68f1d9d23503fc4d31721e28857c9a987[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Thu Dec 5 11:31:42 2024 +0330
+
+    Layout of home page elements and its responsiveness
+
+[33mcommit 54212908b8e727ef9ff70bfcc20a62849f283a25[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Mon Dec 2 19:23:07 2024 +0330
+
+    add .env file to project
+
+[33mcommit 128630eea43d8886eb7d7c35c27fc8d230a37c92[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sun Dec 1 21:21:07 2024 +0330
+
+    add font to this project and change mui theme
+
+[33mcommit 6936d05571a35d3a128dd0a2b2446d6f8feb38fb[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sat Nov 30 21:02:23 2024 +0330
+
+    ins project and libraries for start develope
+
+[33mcommit 7443cc42169a5ec970407c153b922742c9c5b61c[m
+Author: Ehsan Atashkar <ehsanwebdev84@gmail.com>
+Date:   Sat Nov 30 20:16:36 2024 +0330
+
+    Initialize project using Create React App

@@ -55,4 +55,25 @@ const GET_AUTHOR_INFO = gql`
   }
 `;
 
-export { GET_BLOGS_INFO, GET_AUTHORS_INFO, GET_AUTHOR_INFO };
+const GET_POST_INFO = gql`
+  query getPost($slug: String!) {
+    post(where: { slug: "why-programming" }) {
+      countent {
+        html
+      }
+      title
+      coverPhoto {
+        url
+      }
+    }
+    authors {
+      avatar {
+        url
+      }
+      name
+      field
+    }
+  }
+`;
+
+export { GET_BLOGS_INFO, GET_AUTHORS_INFO, GET_AUTHOR_INFO, GET_POST_INFO };
